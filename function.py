@@ -8,7 +8,7 @@ def solve_quadratic(a, b, c):
     d = b**2 - 4*a*c
     
     # Находим два корня
-    x1 = (-b + cmath.sqrt(D)) / (2 * a)
-    x2 = (-b - cmath.sqrt(D)) / (2 * a)
+    x1 = (-b + cmath.sqrt(d)) / (2 * a)
+    x2 = (-b - cmath.sqrt(d)) / (2 * a)
     
     return x1, x2
