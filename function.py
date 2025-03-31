@@ -1,6 +1,6 @@
 import cmath
 
-def solve_quadratic(a, b, c):
+def quadratic_function(a, b, c):
     if a == 0:
         raise ValueError("Coefficient 'a' cannot be zero.")
     
