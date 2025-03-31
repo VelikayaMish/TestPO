@@ -34,3 +34,6 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+    - name: Test function with function_test.py
+      run: |
+        python -m function_test
